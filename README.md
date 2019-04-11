@@ -1,6 +1,6 @@
 # React Router Server Rendering (WIP)
 
-> notes on [this](https://tylermcginnis.com/react-router-server-rendering/) article
+> App built following [this](https://tylermcginnis.com/react-router-server-rendering/) article. Additional notes below.
 
 - biggest benefit is SEO, second is load time on client
 - have to consider how the different environments will affect your code / how your code depends on it's environment e.g does your code new `window` this is present on the client but no on the browser.
